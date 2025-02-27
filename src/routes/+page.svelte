@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<h1>Welcome to Cookie Clicker</h1>
+<p>Cookie Count: {count}</p>
+<button on:click={() => count++}>
+    <img alt="cookie " src="https://cookieclicker.wiki.gg/images/thumb/5/5a/PerfectCookie.png/210px-PerfectCookie.png"> 
+</button>
+
+<script>
+    let count = 0;
+</script>
