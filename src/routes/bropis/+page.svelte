@@ -49,6 +49,9 @@
   .cookie-button {
     border: none;
     width: 200px;
+    color: blue;
+    background-color: magenta;
+    font-size: 20px;
   }
 
   .cookie-img {
