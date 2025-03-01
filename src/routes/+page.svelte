@@ -9,6 +9,7 @@
         height: 100vh;
         margin: 0;
     }
+
     .container {
         text-align: center;
         background-color: #ffffff; 
@@ -18,17 +19,20 @@
         width: 80%;
         max-width: 500px;
     }
+
     .title {
         font-size: 2.5em; 
         color: #1e90ff;
         font-weight: bold;
         margin-bottom: 20px;
     }
+
     .message {
         font-size: 1.2em;
         color: #333;
         margin-top: 0;
     }
+
     strong {
         color: #000000; 
     }
@@ -43,3 +47,4 @@
         </p>
     </div>
 </body>
+
